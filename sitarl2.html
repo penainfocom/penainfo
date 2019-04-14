@@ -1,207 +1,69 @@
 <meta content='width=device-width, initial-scale=1' name='viewport'>
 <link href='https://fonts.googleapis.com/css?family=Roboto:300,300i,500,700,500i,900' rel='stylesheet' type='text/css'/>
-<style type='text/css'>
-@import url(https://fonts.googleapis.com/css?family=Quicksand);
-body {
-  margin: 0;
-  padding: 0;
-  line-height: normal;
-  background: #FFFFFF;
-  font-family: Quicksand, sans-serif;
-}
-a,a:link,a:visited{color:#f24a4a;text-decoration:none;transition:all .3s}a:hover,a:hover:visited{color:#e54444}
-button,input[type="button"],input[type="reset"],input[type="submit"],.button{border:0;color:#fff;cursor:pointer;font-size:14px;font-weight:400;padding:12px 16px;white-space:normal;width:auto;border-radius:3px;outline:0}button:focus,button:hover,input[type="button"]:focus,input[type="button"]:hover,input[type="reset"]:focus,input[type="reset"]:hover,input[type="submit"]:focus,input[type="submit"]:hover,.button:focus,.button:hover{color:#fff}
-#arlina {
-  position: relative;
-  padding: 0;
-  margin: 5% auto;
-  width: 100%;
-  max-width: 970px;
-  overflow: hidden;
-  vertical-align: top;
-}
-#header {
-  height: 250px;
-  margin: auto;
-}
-
-#header h1 {
-  display: table;
-  color: rgba(0,0,0,.5);
-  font-weight: 400;
-  text-align: center;
-  margin: auto;
-  padding: 50px 50px 0 50px;
-  font-size: 55px;
-}
-
-#header p {
-  display: table;
-  color: rgba(0,0,0,.5);
-  font-weight: 400;
-  text-align: center;
-  margin: auto;
-  padding: 10px;
-  font-size: 20px;
-}
-*{padding:0;margin:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-box-sizing:border-box}
-#recentpostnav{border:1px solid #585858;width:100%;margin:0 auto}
-#recentpostsae{margin:0}
-#recentpostsae .recentpostel{width:48.9%;background:#e9e9e9;display:inline-block;margin:0 20px 10px 0;padding:15px;overflow:hidden;box-shadow:0 2px 3px rgba(0,0,0,0.06),0 2px 3px rgba(0,0,0,0.1)}
-#recentpostsae .recentpostel:nth-child(even){margin:0 0 10px 0}
-#recentpostsae .recentpostel img{background:#ecf0f1;padding:0;float:left;margin:0;margin-right:13px;width:72px}
-#recentpostsae .recentpostel h6,.recentpostel h6 a{text-decoration:none;font-size:14px;font-weight:400;margin:0;color:#000}
-#recentpostsae .recentpostel:hover{background-color:#fefefe}
-#recentpostsae .recentpostel p{font-size:12px;text-align:left;color:#555;line-height:normal;margin:5px 0}
-#recentpostload{letter-spacing:-10px;text-align:center;background:transparent url(https://2.bp.blogspot.com/-GeeSB564W-o/Wum3zpg8qNI/AAAAAAAAGmM/aRoomVJFtSQfUoAJrRjD6h1wTSU8J8DUQCLcBGAs/s1600/ellipsis-preloader.gif) no-repeat 50% 50%;height:470px}
-#recentpostnavfeed{display:table;padding:5px 10px 5px 0;text-align:left;margin:15px auto}
-#recentpostnavfeed a{color:#141414;font-size:12px;font-weight:400;display:block;padding:5px 10px}
-#recentpostnavfeed span{padding:0;cursor:pointer;transition:all .3s}
-#recentpostnavfeed .next,#recentpostnavfeed .previous{position:relative;overflow:hidden;display:inline-block;background:#fff;color:#222;padding:14px 16px;font-size:1rem;border-radius:99em;box-shadow:0 2px 3px rgba(0,0,0,0.06),0 2px 3px rgba(0,0,0,0.1)}
-#recentpostnavfeed .next{float:right;margin:0 0 0 10px}
-#recentpostnavfeed .previous{float:left;margin:0 10px 0 0}
-#recentpostnavfeed .home{text-align:center;display:table;background:#fff;color:#222;font-size:1rem;float:none;padding:14px 16px;border-radius:99em;margin:auto;box-shadow:0 2px 3px rgba(0,0,0,0.06),0 2px 3px rgba(0,0,0,0.1)}
-#recentpostnavfeed a:hover,#recentpostnavfeed span.noactived{color:#ccc}
-#recentpostnavfeed i{font-family:fontawesome;font-style:normal}
-#recentpostnavfeed .next:hover,#recentpostnavfeed .previous:hover,#recentpostnavfeed .home:hover{background:#fff;color:#222;box-shadow:0 10px 21px rgba(0,0,0,0.15),0 6px 6px rgba(0,0,0,0.12)}
-@media screen and (max-width:993px){#recentpostsae .recentpostel{width:100%;margin:0 0 10px 0}}
-
+<style type="text/css" scoped="scoped">
+/* Multi Feed Loader /www.arlinadzgn.com */
+.list-entries{background:white;border:1px solid #d8d8d8}
+.list-entries ul,.list-entries li{margin:0;padding:0;list-style:none}
+.list-entries li{padding:1em;border-bottom:1px solid #ddd}
+.list-entries .main-title{padding:0}
+.list-entries .main-title h4{display:block;font:inherit;font-weight:bold;padding:.5em 1em;background-color:#4f93c5;color:#fff;margin:0;line-height:normal;font-size:14px;margin-top:0!important}
+.list-entries .title a{font-weight:300;font-size:14px;text-decoration:none;line-height:.5em;color:#222}
+.list-entries .title a:hover{text-decoration:underline;color:#5886a7}
+.list-entries img,.list-entries .fake-img{border:none;background-color:#333;margin:0 1em 0 0;padding:0;float:left}
+.list-entries .summary{overflow:hidden;color:#999}
+.list-entries .more-link{border-bottom:none}
+.list-entries .more-link a{display:block;line-height:2em;height:2em;overflow:hidden;text-decoration:none;background-color:#82b965;padding:.5em 1em;position:relative;font-weight:bold;color:white}
+.list-entries .more-link a:after{content:"";width:0;height:0;position:absolute;top:50%;right:.3em;border:4px solid transparent;border-left-color:white;margin-top:-4px}
+.list-entries .more-link a:hover{background-color:#71a555}
+.list-entries{margin:7px;width:251px;float:left;font-size:11px}
 </style>
-
-
-<div id="recentpostsae">
-</div>
-<div id="recentpostnavfeed">
-</div>
-
-
-
-<script>
-
-function showrecentpostswiththumbs(json) {document.write('<ul class="recent_posts_with_thumbs">'); for (var i = 0; i < numposts; i++) {var entry = json.feed.entry[i];var posttitle = entry.title.$t;var posturl;if (i == json.feed.entry.length) break;for (var k = 0; k < entry.link.length;k++){
-
-if(entry.link[k].rel=='replies'&&entry.link[k].type=='text/html'){var commenttext=entry.link[k].title;var commenturl=entry.link[k].href;}
-
-if (entry.link[k].rel == 'alternate') {posturl = entry.link[k].href;break;}}var thumburl;try {thumburl=entry.media$thumbnail.url;}catch (error)
-
-{
-
-s=entry.content.$t;a=s.indexOf("<img");b=s.indexOf("src=\"",a);c=s.indexOf("\"",b+5);d=s.substr(b+5,c-b-5);if((a!=-1)&&(b!=-1)&&(c!=-1)&&(d!="")){
-
-thumburl=d;} else thumburl='https://lh4.ggpht.com/_IjrRiI_bVb0/TOCYn1fMjII/AAAAAAAAF24/5Fvv-HJqh74/loading-2.gif';
-
-}
-
-var postdate = entry.published.$t;var cdyear = postdate.substring(0,4);var cdmonth = postdate.substring(5,7);var cdday = postdate.substring(8,10);var monthnames = new Array();monthnames[1] = "Jan";monthnames[2] = "Feb";monthnames[3] = "Mar";monthnames[4] = "Apr";monthnames[5] = "May";monthnames[6] = "Jun";monthnames[7] = "Jul";monthnames[8] = "Aug";monthnames[9] = "Sep";monthnames[10] = "Oct";monthnames[11] = "Nov";monthnames[12] = "Dec";document.write('<li class="clearfix">');
-
-if(showpostthumbnails==true)
-
-document.write('<img class="recent_thumb" src="'+thumburl+'"/>');
-
-document.write('<b><a href="'+posturl+'" target ="_top">'+posttitle+'</a></b><br>');
-
-    if ("content" in entry) {
-
-      var postcontent = entry.content.$t;}
-
-    else
-
-    if ("summary" in entry) {
-
-      var postcontent = entry.summary.$t;}
-
-    else var postcontent = "";
-
-    var re = /<\S[^>]*>/g;
-
-    postcontent = postcontent.replace(re, "");
-
-if (showpostsummary == true) {
-
-      if (postcontent.length < numchars) {
-
-          document.write('<i>');
-
-         document.write(postcontent);
-
-          document.write('</i>');}
-
-      else {
-
-          document.write('<i>');
-
-         postcontent = postcontent.substring(0, numchars);
-
-         var quoteEnd = postcontent.lastIndexOf(" ");
-
-         postcontent = postcontent.substring(0,quoteEnd);
-
-         document.write(postcontent + '...');
-
-          document.write('</i>');}
-
-}
-
-var towrite='';var flag=0;
-
-document.write('<br><strong>');
-
-if(showpostdate==true) {towrite=towrite+monthnames[parseInt(cdmonth,10)]+'-'+cdday+' - '+cdyear;flag=1;}
-
-if(showcommentnum==true)
-
-{
-
-if (flag==1) {towrite=towrite+' | ';}
-
-if(commenttext=='1 Comments') commenttext='1 Comment';
-
-if(commenttext=='0 Comments') commenttext='No Comments';
-
-commenttext = '<a href="'+commenturl+'" target ="_top">'+commenttext+'</a>';
-
-towrite=towrite+commenttext;
-
-flag=1;
-
-;
-
-}
-
-if(displaymore==true)
-
-{
-
-if (flag==1) towrite=towrite+' | ';
-
-towrite=towrite+'<a href="'+posturl+'" class="url" target ="_top">Read more&#187;&#187;</a>';
-
-flag=1;
-
-;
-
-}
-
-document.write(towrite);
-
-document.write('</strong></li>');
-
-if(displayseparator==false)
-
-if (i!=(numposts-1))
-
-document.write('<hr color="#d9f1fa" size=0.5>');
-
-}document.write('</ul>');
-
-}
-
+<script type="text/javascript">
+var multiFeed = {
+    feedsUri: [
+        {
+            name: "Travel",
+            url: "http://invisiontheme.blogspot.com/",
+            tag: "Travel"
+        },
+        {
+            name: "Labels",
+            url: "http://invisiontheme.blogspot.com/",
+            tag: "Labels"
+        },
+        {
+            name: "Lifestyle",
+            url: "http://invisiontheme.blogspot.com/",
+            tag: "Lifestyle"
+        },
+        {
+            name: "Travel",
+            url: "http://invisiontheme.blogspot.com/",
+            tag: "Travel"
+        },
+        {
+            name: "Labels",
+            url: "http://invisiontheme.blogspot.com/",
+            tag: "Labels"
+        },
+        {
+            name: "Lifestyle",
+            url: "http://invisiontheme.blogspot.com/",
+            tag: "Lifestyle"
+        }
+    ],
+    numPost: 4,
+    showThumbnail: true,
+    showSummary: true,
+    summaryLength: 80,
+    titleLength: "auto",
+    thumbSize: 72,
+    containerId: "feed-list-container",
+    readMore: {
+        text: "Selengkapnya",
+        endParam: "?max-results=8"
+    }
+};
 </script>
-
-<script>
-
-var numposts = 999;var showpostthumbnails = true;var displaymore = false;var displayseparator = true;var showcommentnum = false;var showpostdate = false;var showpostsummary = true;var numchars = 100;
-
-</script><script src="https://www.penainfo.com/feeds/posts/default/-/Tips?orderby=published&alt=json-in-script&callback=showrecentpostswiththumbs">
-
-</script><div class="clear"/></div>
+<script type="text/javascript" src="https://cdn.rawgit.com/Arlina-Design/nubie/master/multifeedblog.js"></script>
+<div id="feed-list-container"></div>
+<div style='clear: both;'></div>
